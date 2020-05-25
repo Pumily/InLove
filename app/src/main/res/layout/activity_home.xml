@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 引入背景布局 -->
+    <include
+        android:id="@+id/bg_video"
+        layout="@layout/video_background" />
+
+    <RelativeLayout
+        android:id="@+id/bg_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:max="0"
+            android:progress="0"
+            android:secondaryProgress="0" />
+
+        <TextView
+            android:id="@+id/bg_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:text="其实啊我存过你的照片"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:letterSpacing="0.1"
+            android:fontFamily="serif-monospace"
+            android:textColor="#C9C9C9"/>
+
+        <TextView
+            android:id="@+id/bg_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/bg_tv1"
+            android:layout_alignLeft="@+id/bg_tv1"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Actually, I saved your photo"
+            android:textColor="#C9C9C9"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <CheckBox
+            android:id="@+id/pause"
+            android:button="@null"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/music_bg"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>
