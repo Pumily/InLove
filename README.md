@@ -12,11 +12,11 @@
 
 ## UI效果
 
-![模拟器上效果](doc\GIF.gif)
+![模拟器上效果](./doc/GIF.gif)
 
 ## 扫码下载
 这个是安卓🍭
-![手机扫码下载](doc\download.png)
+![手机扫码下载](./doc/download.png)
 
 ## 食用方法
 
@@ -25,7 +25,7 @@
 ### 文案
 
 在app文件夹下`src👉main👉java👉me.haowen.sample👉MainActivity`
-![](doc\words.jpg)
+![](./doc/words.jpg)
 
 ### 音乐
 简单点app文件夹下`src👉main👉res👉raw👉yhn.mp3`

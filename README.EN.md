@@ -3,7 +3,7 @@
 
 > 😶Don't blame me for the failure of the confession.
 
-[中文](README.md)
+[中文](./README.md)
 
 ## Introduction
 
@@ -12,11 +12,11 @@ In order to solve this problem, our confession app was born. If you can't say so
 
 ## UI Effects
 
-![Effect on simulator](doc\GIF.gif)
+![Effect on simulator](./doc/GIF.gif)
 
 ## Download
 This is Android🍭
-![Scan and download mobile phone](doc\download.png)
+![Scan and download mobile phone](./doc/download.png)
 
 ## How To Use
 
@@ -25,7 +25,7 @@ Download the code and open it with **Android studio**
 ### words
 
 Under app folder`src👉main👉java👉me.haowen.sample👉MainActivity`
-![](doc\words.jpg)
+![](./doc/words.jpg)
 
 ### music
 Simply click under app folder`src👉main👉res👉raw👉yhn.mp3`
