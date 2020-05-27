@@ -24,7 +24,7 @@ public class TestAdapter extends PlanetAdapter {
         PlanetView planetView = new PlanetView(context);
         planetView.setSign(getRandomNick());
 
-        int starColor = position % 2 == 0 ? PlanetView.COLOR_FEMALE : PlanetView.COLOR_MALE;
+        int starColor = position % 2 == 0 ? PlanetView.COLOR_SILVER : PlanetView.COLOR_PURPLE;
         boolean hasShadow = false;
 
         hasShadow=true;

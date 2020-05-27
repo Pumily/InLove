@@ -84,7 +84,7 @@ public class Music extends Activity  implements OnClickListener,
                     + "/Download/", "aiqiu.mp3");
             player.setDataSource(file.getPath());*/
             //Log.e("播放器", file.toString());
-            player = MediaPlayer.create(this,R.raw.cmj);
+            player = MediaPlayer.create(this,R.raw.yhn);
             // player.prepare();
             if (!player.isPlaying()) {
                 player.start();

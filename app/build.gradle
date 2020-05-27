@@ -3,12 +3,19 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "me.haowen.soulplanet"
+        applicationId "me.haowen.planet"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                // 此处指定生成的apk文件名
+                outputFileName = "震惊ing.apk"
+            }
     }
     buildTypes {
         release {

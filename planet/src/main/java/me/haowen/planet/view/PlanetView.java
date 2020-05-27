@@ -16,8 +16,8 @@ import me.haowen.planet.utils.SizeUtils;
  */
 public class PlanetView extends View {
 
-    public static final int COLOR_MALE = 0x9F7C91;
-    public static final int COLOR_FEMALE = 0xE5DFE3;
+    public static final int COLOR_PURPLE = 0x9F7C91;
+    public static final int COLOR_SILVER = 0xE5DFE3;
     public static final int COLOR_MOST_ACTIVE = 0xFFFFFF;
     public static final int COLOR_Special_Words = 0x91bef0;
     private float shadowRadius = -1.0f;
