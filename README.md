@@ -15,7 +15,9 @@
 ![模拟器上效果](./doc/GIF.gif)
 
 ## 扫码下载
+
 这个是安卓🍭
+
 ![手机扫码下载](./doc/download.png)
 
 ## 食用方法
@@ -25,13 +27,16 @@
 ### 文案
 
 在app文件夹下`src👉main👉java👉me.haowen.sample👉MainActivity`
-![](./doc/words.jpg)
+
+![文案位置](./doc/words.jpg)
 
 ### 音乐
+
 简单点app文件夹下`src👉main👉res👉raw👉yhn.mp3`
 直接将你想替换的音乐同名替换掉就可以了
 
 ### 视频
+
 app文件夹下`src👉main👉res👉raw👉p1.mp4`
 与音乐相同
 
@@ -40,4 +45,5 @@ app文件夹下`src👉main👉res👉raw👉p1.mp4`
 * [misakuo/3dTagCloudAndroidt](https://github.com/misakuo/3dTagCloudAndroid/)
 
 ## LICENSE
+
 代码使用 [MIT](./LICENSE) 协议。
